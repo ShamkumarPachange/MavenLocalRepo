@@ -12,6 +12,12 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+	<scm>
+		<url>scm:git:file://E:/NewEclipseJava/MavenLocalRepo/.git</url>
+		<connection>scm:git:file://E:/NewEclipseJava/MavenLocalRepo/.git</connection>
+		<developerConnection>scm:git:file://E:/NewEclipseJava/MavenLocalRepo/.git</developerConnection>
+	</scm>
+
 	<distributionManagement>
 		<repository>
 			<id>central</id>
