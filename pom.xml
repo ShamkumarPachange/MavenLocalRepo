@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>LocalRepo</groupId>
 	<artifactId>MavenLocalRepo</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -14,7 +14,7 @@
 		<url>scm:git:file://E:/NewEclipseJava/MavenLocalRepo/.git</url>
 		<connection>scm:git:file://E:/NewEclipseJava/MavenLocalRepo/.git</connection>
 		<developerConnection>scm:git:file://E:/NewEclipseJava/MavenLocalRepo/.git</developerConnection>
-	  <tag>MavenLocalRepo-0.0.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<distributionManagement>
