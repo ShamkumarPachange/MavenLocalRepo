@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>LocalRepo</groupId>
 	<artifactId>MavenLocalRepo</artifactId>
@@ -10,12 +12,16 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+	<!-- <scm> <url>scm:git:file://E:/NewEclipseJava/MavenLocalRepo/.git</url> 
+		<connection>scm:git:file://E:/NewEclipseJava/MavenLocalRepo/.git</connection> 
+		<developerConnection>scm:git:file://E:/NewEclipseJava/MavenLocalRepo/.git</developerConnection> 
+		<tag>HEAD</tag> </scm> -->
 	<scm>
-		<url>scm:git:file://E:/NewEclipseJava/MavenLocalRepo/.git</url>
-		<connection>scm:git:file://E:/NewEclipseJava/MavenLocalRepo/.git</connection>
-		<developerConnection>scm:git:file://E:/NewEclipseJava/MavenLocalRepo/.git</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
+		<url>scm:git:https://github.com/ShamkumarPachange/MavenLocalRepo.git</url>
+		<connection>scm:git:https://github.com/ShamkumarPachange/MavenLocalRepo.git</connection>
+		<developerConnection>scm:git:https://github.com/ShamkumarPachange/MavenLocalRepo.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 
 	<distributionManagement>
 		<repository>
